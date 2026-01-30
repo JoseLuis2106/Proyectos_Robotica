@@ -1,0 +1,3 @@
+[console_scripts]
+ez_nav_node = ez_nav.ez_nav_node:main
+

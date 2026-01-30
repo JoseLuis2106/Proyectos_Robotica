@@ -1,0 +1,21 @@
+[1.460s] Invoking command in '/home/jlmre/create3_ws/src/pr_pkg': PYTHONPATH=/home/jlmre/create3_ws/build/pr_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jlmre/create3_ws/install/pr_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pr_pkg build --build-base /home/jlmre/create3_ws/build/pr_pkg/build install --record /home/jlmre/create3_ws/build/pr_pkg/install.log --single-version-externally-managed install_data
+[1.651s] running egg_info
+[1.651s] writing ../../build/pr_pkg/pr_pkg.egg-info/PKG-INFO
+[1.651s] writing dependency_links to ../../build/pr_pkg/pr_pkg.egg-info/dependency_links.txt
+[1.651s] writing entry points to ../../build/pr_pkg/pr_pkg.egg-info/entry_points.txt
+[1.651s] writing requirements to ../../build/pr_pkg/pr_pkg.egg-info/requires.txt
+[1.651s] writing top-level names to ../../build/pr_pkg/pr_pkg.egg-info/top_level.txt
+[1.653s] reading manifest file '../../build/pr_pkg/pr_pkg.egg-info/SOURCES.txt'
+[1.654s] writing manifest file '../../build/pr_pkg/pr_pkg.egg-info/SOURCES.txt'
+[1.654s] running build
+[1.654s] running build_py
+[1.654s] running install
+[1.655s] running install_lib
+[1.655s] running install_data
+[1.655s] running install_egg_info
+[1.657s] removing '/home/jlmre/create3_ws/install/pr_pkg/lib/python3.10/site-packages/pr_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.657s] Copying ../../build/pr_pkg/pr_pkg.egg-info to /home/jlmre/create3_ws/install/pr_pkg/lib/python3.10/site-packages/pr_pkg-0.0.0-py3.10.egg-info
+[1.658s] running install_scripts
+[1.676s] Installing get2point script to /home/jlmre/create3_ws/install/pr_pkg/lib/pr_pkg
+[1.676s] writing list of installed files to '/home/jlmre/create3_ws/build/pr_pkg/install.log'
+[1.755s] Invoked command in '/home/jlmre/create3_ws/src/pr_pkg' returned '0': PYTHONPATH=/home/jlmre/create3_ws/build/pr_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jlmre/create3_ws/install/pr_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pr_pkg build --build-base /home/jlmre/create3_ws/build/pr_pkg/build install --record /home/jlmre/create3_ws/build/pr_pkg/install.log --single-version-externally-managed install_data

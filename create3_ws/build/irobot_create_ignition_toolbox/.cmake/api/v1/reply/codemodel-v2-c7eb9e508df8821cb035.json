@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3c0fea934270b13fb74e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "irobot_create_ignition_toolbox",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_buttons_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_buttons_node-45d8ccbb48931d468969.json",
+					"name" : "interface_buttons_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irobot_create_ignition_interface_buttons_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irobot_create_ignition_interface_buttons_lib-cfa0c3a8da6a1fd72276.json",
+					"name" : "irobot_create_ignition_interface_buttons_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irobot_create_ignition_pose_republisher_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irobot_create_ignition_pose_republisher_lib-42e373d6825724a71182.json",
+					"name" : "irobot_create_ignition_pose_republisher_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irobot_create_ignition_sensors_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irobot_create_ignition_sensors_lib-cd80223fcd96f0a88cba.json",
+					"name" : "irobot_create_ignition_sensors_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irobot_create_ignition_toolbox_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irobot_create_ignition_toolbox_uninstall-132c46a169e199130128.json",
+					"name" : "irobot_create_ignition_toolbox_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_republisher_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_republisher_node-46dc28f46d44fe0ac7ef.json",
+					"name" : "pose_republisher_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensors_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensors_node-83f9aac118d6dc40ad0f.json",
+					"name" : "sensors_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-68cc75651de70ca330e2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jlmre/create3_ws/build/irobot_create_ignition_toolbox",
+		"source" : "/home/jlmre/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

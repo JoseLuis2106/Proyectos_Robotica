@@ -1,0 +1,51 @@
+[1.353s] Invoking command in '/home/jlmre/create3_ws/src/img_server': PYTHONPATH=/home/jlmre/create3_ws/build/img_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/img_server build --build-base /home/jlmre/create3_ws/build/img_server/build install --record /home/jlmre/create3_ws/build/img_server/install.log --single-version-externally-managed install_data
+[1.547s] running egg_info
+[1.548s] creating ../../build/img_server/img_server.egg-info
+[1.548s] writing ../../build/img_server/img_server.egg-info/PKG-INFO
+[1.548s] writing dependency_links to ../../build/img_server/img_server.egg-info/dependency_links.txt
+[1.548s] writing entry points to ../../build/img_server/img_server.egg-info/entry_points.txt
+[1.549s] writing requirements to ../../build/img_server/img_server.egg-info/requires.txt
+[1.549s] writing top-level names to ../../build/img_server/img_server.egg-info/top_level.txt
+[1.549s] writing manifest file '../../build/img_server/img_server.egg-info/SOURCES.txt'
+[1.550s] reading manifest file '../../build/img_server/img_server.egg-info/SOURCES.txt'
+[1.551s] writing manifest file '../../build/img_server/img_server.egg-info/SOURCES.txt'
+[1.551s] running build
+[1.551s] running build_py
+[1.551s] creating /home/jlmre/create3_ws/build/img_server/build
+[1.551s] creating /home/jlmre/create3_ws/build/img_server/build/lib
+[1.551s] creating /home/jlmre/create3_ws/build/img_server/build/lib/img_server
+[1.551s] copying img_server/__init__.py -> /home/jlmre/create3_ws/build/img_server/build/lib/img_server
+[1.551s] copying img_server/prueba_led.py -> /home/jlmre/create3_ws/build/img_server/build/lib/img_server
+[1.551s] copying img_server/img_server_node2.py -> /home/jlmre/create3_ws/build/img_server/build/lib/img_server
+[1.551s] copying img_server/app.py -> /home/jlmre/create3_ws/build/img_server/build/lib/img_server
+[1.551s] copying img_server/img_server_node.py -> /home/jlmre/create3_ws/build/img_server/build/lib/img_server
+[1.552s] running install
+[1.552s] running install_lib
+[1.552s] creating /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server
+[1.552s] copying /home/jlmre/create3_ws/build/img_server/build/lib/img_server/__init__.py -> /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server
+[1.553s] copying /home/jlmre/create3_ws/build/img_server/build/lib/img_server/prueba_led.py -> /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server
+[1.553s] copying /home/jlmre/create3_ws/build/img_server/build/lib/img_server/img_server_node2.py -> /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server
+[1.553s] copying /home/jlmre/create3_ws/build/img_server/build/lib/img_server/app.py -> /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server
+[1.553s] copying /home/jlmre/create3_ws/build/img_server/build/lib/img_server/img_server_node.py -> /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server
+[1.553s] byte-compiling /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server/__init__.py to __init__.cpython-310.pyc
+[1.553s] byte-compiling /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server/prueba_led.py to prueba_led.cpython-310.pyc
+[1.554s] byte-compiling /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server/img_server_node2.py to img_server_node2.cpython-310.pyc
+[1.555s] byte-compiling /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server/app.py to app.cpython-310.pyc
+[1.555s] byte-compiling /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server/img_server_node.py to img_server_node.cpython-310.pyc
+[1.556s] running install_data
+[1.556s] creating /home/jlmre/create3_ws/install/img_server/share/ament_index
+[1.556s] creating /home/jlmre/create3_ws/install/img_server/share/ament_index/resource_index
+[1.556s] creating /home/jlmre/create3_ws/install/img_server/share/ament_index/resource_index/packages
+[1.556s] copying resource/img_server -> /home/jlmre/create3_ws/install/img_server/share/ament_index/resource_index/packages
+[1.556s] copying package.xml -> /home/jlmre/create3_ws/install/img_server/share/img_server
+[1.556s] creating /home/jlmre/create3_ws/install/img_server/lib/img_server
+[1.557s] creating /home/jlmre/create3_ws/install/img_server/lib/img_server/templates
+[1.557s] copying img_server/templates/index.html -> /home/jlmre/create3_ws/install/img_server/lib/img_server/templates
+[1.557s] creating /home/jlmre/create3_ws/install/img_server/lib/img_server/static
+[1.557s] copying img_server/static/style.css -> /home/jlmre/create3_ws/install/img_server/lib/img_server/static
+[1.557s] running install_egg_info
+[1.558s] Copying ../../build/img_server/img_server.egg-info to /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server-0.0.0-py3.10.egg-info
+[1.559s] running install_scripts
+[1.576s] Installing img_server_node script to /home/jlmre/create3_ws/install/img_server/lib/img_server
+[1.577s] writing list of installed files to '/home/jlmre/create3_ws/build/img_server/install.log'
+[1.611s] Invoked command in '/home/jlmre/create3_ws/src/img_server' returned '0': PYTHONPATH=/home/jlmre/create3_ws/build/img_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/img_server build --build-base /home/jlmre/create3_ws/build/img_server/build install --record /home/jlmre/create3_ws/build/img_server/install.log --single-version-externally-managed install_data

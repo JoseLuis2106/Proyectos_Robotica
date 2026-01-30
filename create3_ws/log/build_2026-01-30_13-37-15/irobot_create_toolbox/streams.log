@@ -1,0 +1,6 @@
+[0.031s] Invoking command in '/home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_toolbox -- -j16 -l16
+[0.343s] [0mCMake Error: The current CMakeCache.txt directory /home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_toolbox/CMakeCache.txt is different than the directory /home/jlmre/create3_ws/build/irobot_create_toolbox where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.344s] [0mCMake Error: The source directory "/home/jlmre/create3_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox" does not exist.
+[0.344s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.344s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.517s] Invoked command in '/home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_toolbox' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_toolbox -- -j16 -l16

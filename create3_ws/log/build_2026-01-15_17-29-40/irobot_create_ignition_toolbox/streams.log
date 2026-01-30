@@ -1,0 +1,131 @@
+[0.008s] Invoking command in '/home/jlmre/create3_ws/build/irobot_create_ignition_toolbox': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jlmre/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox -DCMAKE_INSTALL_PREFIX=/home/jlmre/create3_ws/install/irobot_create_ignition_toolbox
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.091s] -- The CXX compiler identification is GNU 11.4.0
+[0.096s] -- Detecting C compiler ABI info
+[0.150s] -- Detecting C compiler ABI info - done
+[0.155s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.156s] -- Detecting C compile features
+[0.156s] -- Detecting C compile features - done
+[0.158s] -- Detecting CXX compiler ABI info
+[0.222s] -- Detecting CXX compiler ABI info - done
+[0.227s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.227s] -- Detecting CXX compile features
+[0.227s] -- Detecting CXX compile features - done
+[0.230s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.346s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.421s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.453s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.458s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.465s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.476s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.488s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.593s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.608s] -- Found irobot_create_msgs: 2.1.0 (/opt/ros/humble/share/irobot_create_msgs/cmake)
+[0.622s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.652s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.655s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.733s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.759s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.798s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.805s] -- Looking for pthread.h
+[0.865s] -- Looking for pthread.h - found
+[0.865s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.928s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.929s] -- Found Threads: TRUE  
+[0.958s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.972s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.983s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.998s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.999s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.999s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.047s] -- Found irobot_create_toolbox: 2.1.0 (/home/jlmre/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake)
+[1.103s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.163s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.163s] -- Configured cppcheck include dirs: /home/jlmre/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox/include
+[1.163s] -- Configured cppcheck exclude dirs and/or files: 
+[1.165s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.165s] -- Configured cpplint exclude dirs and/or files: 
+[1.166s] -- Added test 'lint_cmake' to check CMake code style
+[1.167s] -- Added test 'uncrustify' to check C / C++ code style
+[1.168s] -- Configured uncrustify additional arguments: 
+[1.168s] -- Added test 'xmllint' to check XML markup files
+[1.171s] -- Configuring done
+[1.205s] -- Generating done
+[1.217s] -- Build files have been written to: /home/jlmre/create3_ws/build/irobot_create_ignition_toolbox
+[1.228s] Invoked command in '/home/jlmre/create3_ws/build/irobot_create_ignition_toolbox' returned '0': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jlmre/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox -DCMAKE_INSTALL_PREFIX=/home/jlmre/create3_ws/install/irobot_create_ignition_toolbox
+[1.229s] Invoking command in '/home/jlmre/create3_ws/build/irobot_create_ignition_toolbox': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jlmre/create3_ws/build/irobot_create_ignition_toolbox -- -j16 -l16
+[1.279s] [  5%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_pose_republisher_lib.dir/src/pose_republisher/pose_republisher_node.cpp.o[0m
+[1.279s] [ 16%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/sensors_node.cpp.o[0m
+[1.279s] [ 22%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_interface_buttons_lib.dir/src/interface_buttons/interface_buttons_node.cpp.o[0m
+[1.280s] [ 22%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/bumper.cpp.o[0m
+[1.280s] [ 27%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/cliff.cpp.o[0m
+[1.280s] [ 33%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/ir_intensity.cpp.o[0m
+[1.281s] [ 38%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/mouse.cpp.o[0m
+[1.281s] [ 44%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/ir_opcode.cpp.o[0m
+[1.281s] [ 50%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/wheel_drop.cpp.o[0m
+[20.091s] [ 55%] [32m[1mLinking CXX shared library libirobot_create_ignition_interface_buttons_lib.so[0m
+[21.161s] [ 55%] Built target irobot_create_ignition_interface_buttons_lib
+[21.234s] [ 61%] [32mBuilding CXX object CMakeFiles/interface_buttons_node.dir/src/interface_buttons/interface_buttons_main.cpp.o[0m
+[23.299s] [ 66%] [32m[1mLinking CXX shared library libirobot_create_ignition_sensors_lib.so[0m
+[24.923s] [ 72%] [32m[1mLinking CXX shared library libirobot_create_ignition_pose_republisher_lib.so[0m
+[25.743s] [ 77%] [32m[1mLinking CXX executable interface_buttons_node[0m
+[26.319s] [ 77%] Built target irobot_create_ignition_pose_republisher_lib
+[26.323s] [ 77%] Built target interface_buttons_node
+[26.359s] [ 83%] [32mBuilding CXX object CMakeFiles/pose_republisher_node.dir/src/pose_republisher/pose_republisher_main.cpp.o[0m
+[26.528s] [ 83%] Built target irobot_create_ignition_sensors_lib
+[26.569s] [ 88%] [32mBuilding CXX object CMakeFiles/sensors_node.dir/src/sensors/sensors_main.cpp.o[0m
+[30.455s] [ 94%] [32m[1mLinking CXX executable pose_republisher_node[0m
+[30.968s] [ 94%] Built target pose_republisher_node
+[33.427s] [100%] [32m[1mLinking CXX executable sensors_node[0m
+[34.160s] [100%] Built target sensors_node
+[34.174s] Invoked command in '/home/jlmre/create3_ws/build/irobot_create_ignition_toolbox' returned '0': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jlmre/create3_ws/build/irobot_create_ignition_toolbox -- -j16 -l16
+[34.176s] Invoking command in '/home/jlmre/create3_ws/build/irobot_create_ignition_toolbox': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jlmre/create3_ws/build/irobot_create_ignition_toolbox
+[34.185s] -- Install configuration: ""
+[34.185s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/lib/libirobot_create_ignition_pose_republisher_lib.so
+[34.195s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/lib/libirobot_create_ignition_pose_republisher_lib.so" to ""
+[34.195s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/lib/libirobot_create_ignition_sensors_lib.so
+[34.215s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/lib/libirobot_create_ignition_sensors_lib.so" to ""
+[34.215s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/lib/libirobot_create_ignition_interface_buttons_lib.so
+[34.221s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/lib/libirobot_create_ignition_interface_buttons_lib.so" to ""
+[34.221s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/lib/irobot_create_ignition_toolbox/pose_republisher_node
+[34.222s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/lib/irobot_create_ignition_toolbox/pose_republisher_node" to ""
+[34.222s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/lib/irobot_create_ignition_toolbox/sensors_node
+[34.223s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/lib/irobot_create_ignition_toolbox/sensors_node" to ""
+[34.223s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/lib/irobot_create_ignition_toolbox/interface_buttons_node
+[34.223s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/lib/irobot_create_ignition_toolbox/interface_buttons_node" to ""
+[34.223s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/include
+[34.224s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox
+[34.224s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/utils.hpp
+[34.224s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/pose_republisher
+[34.224s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/pose_republisher/pose_republisher.hpp
+[34.224s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/sensors
+[34.224s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/sensors/cliff.hpp
+[34.224s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/sensors/bumper.hpp
+[34.224s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/sensors/mouse.hpp
+[34.224s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/sensors/sensors_node.hpp
+[34.224s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/sensors/wheel_drop.hpp
+[34.224s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/sensors/ir_intensity.hpp
+[34.225s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/sensors/ir_opcode.hpp
+[34.225s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/interface_buttons
+[34.225s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/interface_buttons/interface_buttons_node.hpp
+[34.225s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/environment/library_path.sh
+[34.225s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/environment/library_path.dsv
+[34.225s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/ament_index/resource_index/package_run_dependencies/irobot_create_ignition_toolbox
+[34.226s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/ament_index/resource_index/parent_prefix_path/irobot_create_ignition_toolbox
+[34.226s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/environment/ament_prefix_path.sh
+[34.226s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/environment/ament_prefix_path.dsv
+[34.226s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/environment/path.sh
+[34.226s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/environment/path.dsv
+[34.226s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/local_setup.bash
+[34.226s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/local_setup.sh
+[34.226s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/local_setup.zsh
+[34.227s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/local_setup.dsv
+[34.227s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/package.dsv
+[34.227s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/ament_index/resource_index/packages/irobot_create_ignition_toolbox
+[34.227s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.227s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[34.227s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.227s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/cmake/irobot_create_ignition_toolboxConfig.cmake
+[34.228s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/cmake/irobot_create_ignition_toolboxConfig-version.cmake
+[34.228s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/package.xml
+[34.231s] Invoked command in '/home/jlmre/create3_ws/build/irobot_create_ignition_toolbox' returned '0': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jlmre/create3_ws/build/irobot_create_ignition_toolbox

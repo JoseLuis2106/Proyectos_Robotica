@@ -1,0 +1,39 @@
+[1.346s] Invoking command in '/home/jlmre/create3_ws/src/vodom': PYTHONPATH=/home/jlmre/create3_ws/build/vodom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jlmre/create3_ws/install/vodom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vodom build --build-base /home/jlmre/create3_ws/build/vodom/build install --record /home/jlmre/create3_ws/build/vodom/install.log --single-version-externally-managed install_data
+[1.537s] running egg_info
+[1.537s] creating ../../build/vodom/vodom.egg-info
+[1.537s] writing ../../build/vodom/vodom.egg-info/PKG-INFO
+[1.537s] writing dependency_links to ../../build/vodom/vodom.egg-info/dependency_links.txt
+[1.538s] writing entry points to ../../build/vodom/vodom.egg-info/entry_points.txt
+[1.538s] writing requirements to ../../build/vodom/vodom.egg-info/requires.txt
+[1.538s] writing top-level names to ../../build/vodom/vodom.egg-info/top_level.txt
+[1.538s] writing manifest file '../../build/vodom/vodom.egg-info/SOURCES.txt'
+[1.539s] reading manifest file '../../build/vodom/vodom.egg-info/SOURCES.txt'
+[1.540s] writing manifest file '../../build/vodom/vodom.egg-info/SOURCES.txt'
+[1.540s] running build
+[1.540s] running build_py
+[1.540s] creating /home/jlmre/create3_ws/build/vodom/build
+[1.540s] creating /home/jlmre/create3_ws/build/vodom/build/lib
+[1.540s] creating /home/jlmre/create3_ws/build/vodom/build/lib/vodom
+[1.540s] copying vodom/__init__.py -> /home/jlmre/create3_ws/build/vodom/build/lib/vodom
+[1.540s] copying vodom/vodom_node.py -> /home/jlmre/create3_ws/build/vodom/build/lib/vodom
+[1.540s] running install
+[1.540s] running install_lib
+[1.541s] creating /home/jlmre/create3_ws/install/vodom/lib/python3.10/site-packages/vodom
+[1.542s] copying /home/jlmre/create3_ws/build/vodom/build/lib/vodom/__init__.py -> /home/jlmre/create3_ws/install/vodom/lib/python3.10/site-packages/vodom
+[1.542s] copying /home/jlmre/create3_ws/build/vodom/build/lib/vodom/vodom_node.py -> /home/jlmre/create3_ws/install/vodom/lib/python3.10/site-packages/vodom
+[1.542s] byte-compiling /home/jlmre/create3_ws/install/vodom/lib/python3.10/site-packages/vodom/__init__.py to __init__.cpython-310.pyc
+[1.542s] byte-compiling /home/jlmre/create3_ws/install/vodom/lib/python3.10/site-packages/vodom/vodom_node.py to vodom_node.cpython-310.pyc
+[1.543s] running install_data
+[1.544s] creating /home/jlmre/create3_ws/install/vodom/share/ament_index
+[1.544s] creating /home/jlmre/create3_ws/install/vodom/share/ament_index/resource_index
+[1.544s] creating /home/jlmre/create3_ws/install/vodom/share/ament_index/resource_index/packages
+[1.544s] copying resource/vodom -> /home/jlmre/create3_ws/install/vodom/share/ament_index/resource_index/packages
+[1.544s] copying package.xml -> /home/jlmre/create3_ws/install/vodom/share/vodom
+[1.544s] creating /home/jlmre/create3_ws/install/vodom/share/vodom/launch
+[1.544s] copying launch/volaunch.launch.py -> /home/jlmre/create3_ws/install/vodom/share/vodom/launch
+[1.544s] running install_egg_info
+[1.546s] Copying ../../build/vodom/vodom.egg-info to /home/jlmre/create3_ws/install/vodom/lib/python3.10/site-packages/vodom-0.0.1-py3.10.egg-info
+[1.546s] running install_scripts
+[1.564s] Installing vodom_node script to /home/jlmre/create3_ws/install/vodom/lib/vodom
+[1.564s] writing list of installed files to '/home/jlmre/create3_ws/build/vodom/install.log'
+[1.596s] Invoked command in '/home/jlmre/create3_ws/src/vodom' returned '0': PYTHONPATH=/home/jlmre/create3_ws/build/vodom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jlmre/create3_ws/install/vodom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vodom build --build-base /home/jlmre/create3_ws/build/vodom/build install --record /home/jlmre/create3_ws/build/vodom/install.log --single-version-externally-managed install_data

@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+/* ALERTA */
+.alert-box {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #ff4d4d;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 20px;
+  font-size: 18px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.alert-box .count {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+/* CONTENEDOR */
+.container {
+  max-width: 800px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+/* IMAGEN */
+.image-box {
+  margin: 30px 0;
+}
+
+.image-box img {
+  width: 430px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* BOTONES */
+.buttons {
+  margin: 20px 0;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 25px;
+  margin: 0 10px;
+  border-radius: 25px;
+  font-size: 16px;
+  color: white;
+}
+
+.start {
+  background: #28a745;
+}
+
+.stop {
+  background: #dc3545;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+/* ESTADO */
+.status {
+  margin-top: 20px;
+  font-size: 18px;
+}

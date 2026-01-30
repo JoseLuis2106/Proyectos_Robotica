@@ -1,0 +1,4 @@
+Invoking command in '/home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_toolbox -- -j16 -l16
+Invoked command in '/home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_toolbox -- -j16 -l16
+Invoking command in '/home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_toolbox
+Invoked command in '/home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_toolbox

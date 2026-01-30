@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/img_server/img_server.egg-info/PKG-INFO
+../../build/img_server/img_server.egg-info/SOURCES.txt
+../../build/img_server/img_server.egg-info/dependency_links.txt
+../../build/img_server/img_server.egg-info/entry_points.txt
+../../build/img_server/img_server.egg-info/requires.txt
+../../build/img_server/img_server.egg-info/top_level.txt
+../../build/img_server/img_server.egg-info/zip-safe
+img_server/__init__.py
+img_server/img_server_node.py
+resource/img_server
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

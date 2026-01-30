@@ -1,0 +1,85 @@
+[0.012s] Invoking command in '/home/jlmre/create3_ws/build/irobot_create_common_bringup': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes:/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes:/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes/lib:/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jlmre/create3_ws/src/create3_sim/irobot_create_common/irobot_create_common_bringup -DCMAKE_INSTALL_PREFIX=/home/jlmre/create3_ws/install/irobot_create_common_bringup
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.099s] -- The CXX compiler identification is GNU 11.4.0
+[0.103s] -- Detecting C compiler ABI info
+[0.159s] -- Detecting C compiler ABI info - done
+[0.163s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.163s] -- Detecting C compile features
+[0.164s] -- Detecting C compile features - done
+[0.165s] -- Detecting CXX compiler ABI info
+[0.232s] -- Detecting CXX compiler ABI info - done
+[0.236s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.236s] -- Detecting CXX compile features
+[0.237s] -- Detecting CXX compile features - done
+[0.239s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.342s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.460s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.512s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.512s] -- Added test 'lint_cmake' to check CMake code style
+[0.513s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.514s] -- Added test 'xmllint' to check XML markup files
+[0.515s] -- Configuring done
+[0.517s] -- Generating done
+[0.518s] -- Build files have been written to: /home/jlmre/create3_ws/build/irobot_create_common_bringup
+[0.522s] Invoked command in '/home/jlmre/create3_ws/build/irobot_create_common_bringup' returned '0': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes:/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes:/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes/lib:/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jlmre/create3_ws/src/create3_sim/irobot_create_common/irobot_create_common_bringup -DCMAKE_INSTALL_PREFIX=/home/jlmre/create3_ws/install/irobot_create_common_bringup
+[0.524s] Invoking command in '/home/jlmre/create3_ws/build/irobot_create_common_bringup': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes:/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes:/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes/lib:/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jlmre/create3_ws/build/irobot_create_common_bringup -- -j16 -l16
+[0.568s] Built target ament_cmake_python_copy_irobot_create_common_bringup
+[0.713s] running egg_info
+[0.713s] creating irobot_create_common_bringup.egg-info
+[0.713s] writing irobot_create_common_bringup.egg-info/PKG-INFO
+[0.713s] writing dependency_links to irobot_create_common_bringup.egg-info/dependency_links.txt
+[0.713s] writing top-level names to irobot_create_common_bringup.egg-info/top_level.txt
+[0.713s] writing manifest file 'irobot_create_common_bringup.egg-info/SOURCES.txt'
+[0.714s] reading manifest file 'irobot_create_common_bringup.egg-info/SOURCES.txt'
+[0.715s] writing manifest file 'irobot_create_common_bringup.egg-info/SOURCES.txt'
+[0.734s] Built target ament_cmake_python_build_irobot_create_common_bringup_egg
+[0.744s] Invoked command in '/home/jlmre/create3_ws/build/irobot_create_common_bringup' returned '0': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes:/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes:/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes/lib:/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jlmre/create3_ws/build/irobot_create_common_bringup -- -j16 -l16
+[0.745s] Invoking command in '/home/jlmre/create3_ws/build/irobot_create_common_bringup': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes:/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes:/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes/lib:/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jlmre/create3_ws/build/irobot_create_common_bringup
+[0.751s] -- Install configuration: ""
+[0.751s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/config
+[0.752s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/config/hazard_vector_params.yaml
+[0.752s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/config/ui_mgr_params.yaml
+[0.752s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/config/wheel_status_params.yaml
+[0.752s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/config/kidnap_estimator_params.yaml
+[0.752s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/config/ir_intensity_vector_params.yaml
+[0.752s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/config/robot_state_params.yaml
+[0.752s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/config/mock_params.yaml
+[0.752s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/launch
+[0.752s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/launch/robot_description.launch.py
+[0.752s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/launch/create3_nodes.launch.py
+[0.752s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/launch/rviz2.launch.py
+[0.752s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/launch/dock_description.launch.py
+[0.753s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/rviz
+[0.753s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/rviz/irobot_logo.jpg
+[0.753s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/rviz/irobot_create_view.rviz
+[0.753s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/environment/pythonpath.sh
+[0.753s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/environment/pythonpath.dsv
+[0.753s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages/irobot_create_common_bringup-2.1.0-py3.10.egg-info
+[0.753s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages/irobot_create_common_bringup-2.1.0-py3.10.egg-info/dependency_links.txt
+[0.753s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages/irobot_create_common_bringup-2.1.0-py3.10.egg-info/PKG-INFO
+[0.753s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages/irobot_create_common_bringup-2.1.0-py3.10.egg-info/top_level.txt
+[0.753s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages/irobot_create_common_bringup-2.1.0-py3.10.egg-info/SOURCES.txt
+[0.753s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages/irobot_create_common_bringup
+[0.753s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages/irobot_create_common_bringup/__init__.py
+[0.753s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages/irobot_create_common_bringup/namespace.py
+[0.753s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages/irobot_create_common_bringup/offset.py
+[0.774s] Listing '/home/jlmre/create3_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages/irobot_create_common_bringup'...
+[0.774s] Compiling '/home/jlmre/create3_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages/irobot_create_common_bringup/__init__.py'...
+[0.774s] Compiling '/home/jlmre/create3_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages/irobot_create_common_bringup/namespace.py'...
+[0.774s] Compiling '/home/jlmre/create3_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages/irobot_create_common_bringup/offset.py'...
+[0.777s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/ament_index/resource_index/package_run_dependencies/irobot_create_common_bringup
+[0.777s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/ament_index/resource_index/parent_prefix_path/irobot_create_common_bringup
+[0.778s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/environment/ament_prefix_path.sh
+[0.778s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/environment/ament_prefix_path.dsv
+[0.778s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/environment/path.sh
+[0.778s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/environment/path.dsv
+[0.778s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/local_setup.bash
+[0.778s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/local_setup.sh
+[0.778s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/local_setup.zsh
+[0.778s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/local_setup.dsv
+[0.779s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/package.dsv
+[0.779s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/ament_index/resource_index/packages/irobot_create_common_bringup
+[0.779s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/cmake/irobot_create_common_bringupConfig.cmake
+[0.779s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/cmake/irobot_create_common_bringupConfig-version.cmake
+[0.780s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/package.xml
+[0.783s] Invoked command in '/home/jlmre/create3_ws/build/irobot_create_common_bringup' returned '0': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes:/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes:/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_nodes/lib:/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jlmre/create3_ws/build/irobot_create_common_bringup

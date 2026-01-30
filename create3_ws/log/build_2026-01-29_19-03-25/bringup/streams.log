@@ -1,0 +1,21 @@
+[0.841s] Invoking command in '/home/jlmre/create3_ws/src/bringup': PYTHONPATH=/home/jlmre/create3_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jlmre/create3_ws/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bringup build --build-base /home/jlmre/create3_ws/build/bringup/build install --record /home/jlmre/create3_ws/build/bringup/install.log --single-version-externally-managed install_data
+[0.994s] running egg_info
+[0.995s] writing ../../build/bringup/bringup.egg-info/PKG-INFO
+[0.995s] writing dependency_links to ../../build/bringup/bringup.egg-info/dependency_links.txt
+[0.995s] writing entry points to ../../build/bringup/bringup.egg-info/entry_points.txt
+[0.995s] writing requirements to ../../build/bringup/bringup.egg-info/requires.txt
+[0.995s] writing top-level names to ../../build/bringup/bringup.egg-info/top_level.txt
+[0.996s] reading manifest file '../../build/bringup/bringup.egg-info/SOURCES.txt'
+[0.997s] writing manifest file '../../build/bringup/bringup.egg-info/SOURCES.txt'
+[0.997s] running build
+[0.997s] running build_py
+[0.997s] running install
+[0.997s] running install_lib
+[0.998s] running install_data
+[0.998s] copying launch/bringup.launch.py -> /home/jlmre/create3_ws/install/bringup/share/bringup/launch
+[0.998s] running install_egg_info
+[1.000s] removing '/home/jlmre/create3_ws/install/bringup/lib/python3.10/site-packages/bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[1.000s] Copying ../../build/bringup/bringup.egg-info to /home/jlmre/create3_ws/install/bringup/lib/python3.10/site-packages/bringup-0.0.0-py3.10.egg-info
+[1.001s] running install_scripts
+[1.017s] writing list of installed files to '/home/jlmre/create3_ws/build/bringup/install.log'
+[1.065s] Invoked command in '/home/jlmre/create3_ws/src/bringup' returned '0': PYTHONPATH=/home/jlmre/create3_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jlmre/create3_ws/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bringup build --build-base /home/jlmre/create3_ws/build/bringup/build install --record /home/jlmre/create3_ws/build/bringup/install.log --single-version-externally-managed install_data

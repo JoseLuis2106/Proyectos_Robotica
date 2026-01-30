@@ -1,0 +1,26 @@
+[0.039s] Invoking command in '/home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_control -- -j16 -l16
+[0.360s] [0mCMake Error: The current CMakeCache.txt directory /home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_control/CMakeCache.txt is different than the directory /home/jlmre/create3_ws/build/irobot_create_control where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.523s] Invoked command in '/home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_control -- -j16 -l16
+[0.525s] Invoking command in '/home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_control
+[0.537s] -- Install configuration: ""
+[0.537s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control//launch
+[0.537s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control//launch/include
+[0.537s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control//launch/include/control.py
+[0.537s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control//config
+[0.537s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control//config/control.yaml
+[0.537s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/ament_index/resource_index/package_run_dependencies/irobot_create_control
+[0.537s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/ament_index/resource_index/parent_prefix_path/irobot_create_control
+[0.537s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control/environment/ament_prefix_path.sh
+[0.537s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control/environment/ament_prefix_path.dsv
+[0.537s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control/environment/path.sh
+[0.537s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control/environment/path.dsv
+[0.537s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control/local_setup.bash
+[0.537s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control/local_setup.sh
+[0.537s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control/local_setup.zsh
+[0.537s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control/local_setup.dsv
+[0.537s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control/package.dsv
+[0.537s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/ament_index/resource_index/packages/irobot_create_control
+[0.538s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control/cmake/irobot_create_controlConfig.cmake
+[0.538s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control/cmake/irobot_create_controlConfig-version.cmake
+[0.538s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_control/share/irobot_create_control/package.xml
+[0.552s] Invoked command in '/home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jlmre/Proyectos_Robotica/create3_ws/build/irobot_create_control

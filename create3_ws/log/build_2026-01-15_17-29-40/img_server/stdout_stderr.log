@@ -1,0 +1,49 @@
+running egg_info
+creating ../../build/img_server/img_server.egg-info
+writing ../../build/img_server/img_server.egg-info/PKG-INFO
+writing dependency_links to ../../build/img_server/img_server.egg-info/dependency_links.txt
+writing entry points to ../../build/img_server/img_server.egg-info/entry_points.txt
+writing requirements to ../../build/img_server/img_server.egg-info/requires.txt
+writing top-level names to ../../build/img_server/img_server.egg-info/top_level.txt
+writing manifest file '../../build/img_server/img_server.egg-info/SOURCES.txt'
+reading manifest file '../../build/img_server/img_server.egg-info/SOURCES.txt'
+writing manifest file '../../build/img_server/img_server.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jlmre/create3_ws/build/img_server/build
+creating /home/jlmre/create3_ws/build/img_server/build/lib
+creating /home/jlmre/create3_ws/build/img_server/build/lib/img_server
+copying img_server/__init__.py -> /home/jlmre/create3_ws/build/img_server/build/lib/img_server
+copying img_server/prueba_led.py -> /home/jlmre/create3_ws/build/img_server/build/lib/img_server
+copying img_server/img_server_node2.py -> /home/jlmre/create3_ws/build/img_server/build/lib/img_server
+copying img_server/app.py -> /home/jlmre/create3_ws/build/img_server/build/lib/img_server
+copying img_server/img_server_node.py -> /home/jlmre/create3_ws/build/img_server/build/lib/img_server
+running install
+running install_lib
+creating /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server
+copying /home/jlmre/create3_ws/build/img_server/build/lib/img_server/__init__.py -> /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server
+copying /home/jlmre/create3_ws/build/img_server/build/lib/img_server/prueba_led.py -> /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server
+copying /home/jlmre/create3_ws/build/img_server/build/lib/img_server/img_server_node2.py -> /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server
+copying /home/jlmre/create3_ws/build/img_server/build/lib/img_server/app.py -> /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server
+copying /home/jlmre/create3_ws/build/img_server/build/lib/img_server/img_server_node.py -> /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server
+byte-compiling /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server/prueba_led.py to prueba_led.cpython-310.pyc
+byte-compiling /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server/img_server_node2.py to img_server_node2.cpython-310.pyc
+byte-compiling /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server/app.py to app.cpython-310.pyc
+byte-compiling /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server/img_server_node.py to img_server_node.cpython-310.pyc
+running install_data
+creating /home/jlmre/create3_ws/install/img_server/share/ament_index
+creating /home/jlmre/create3_ws/install/img_server/share/ament_index/resource_index
+creating /home/jlmre/create3_ws/install/img_server/share/ament_index/resource_index/packages
+copying resource/img_server -> /home/jlmre/create3_ws/install/img_server/share/ament_index/resource_index/packages
+copying package.xml -> /home/jlmre/create3_ws/install/img_server/share/img_server
+creating /home/jlmre/create3_ws/install/img_server/lib/img_server
+creating /home/jlmre/create3_ws/install/img_server/lib/img_server/templates
+copying img_server/templates/index.html -> /home/jlmre/create3_ws/install/img_server/lib/img_server/templates
+creating /home/jlmre/create3_ws/install/img_server/lib/img_server/static
+copying img_server/static/style.css -> /home/jlmre/create3_ws/install/img_server/lib/img_server/static
+running install_egg_info
+Copying ../../build/img_server/img_server.egg-info to /home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server-0.0.0-py3.10.egg-info
+running install_scripts
+Installing img_server_node script to /home/jlmre/create3_ws/install/img_server/lib/img_server
+writing list of installed files to '/home/jlmre/create3_ws/build/img_server/install.log'

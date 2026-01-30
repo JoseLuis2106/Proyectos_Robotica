@@ -1,0 +1,204 @@
+[0.009s] Invoking command in '/home/jlmre/create3_ws/build/irobot_create_gazebo_plugins': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jlmre/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.153s] -- Detecting C compiler ABI info - done
+[0.158s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.158s] -- Detecting C compile features
+[0.159s] -- Detecting C compile features - done
+[0.161s] -- Detecting CXX compiler ABI info
+[0.225s] -- Detecting CXX compiler ABI info - done
+[0.229s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.230s] -- Detecting CXX compile features
+[0.230s] -- Detecting CXX compile features - done
+[0.232s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.344s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.419s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.451s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.456s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.462s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.473s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.486s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.517s] -- Found irobot_create_msgs: 2.1.0 (/opt/ros/humble/share/irobot_create_msgs/cmake)
+[0.555s] -- Found irobot_create_toolbox: 2.1.0 (/home/jlmre/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake)
+[0.596s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.598s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.686s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.711s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.749s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.757s] -- Looking for pthread.h
+[0.820s] -- Looking for pthread.h - found
+[0.820s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.879s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.879s] -- Found Threads: TRUE  
+[0.910s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.932s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.933s] -- Checking for module 'bullet>=2.82'
+[0.945s] --   Found bullet, version 3.05
+[1.063s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.117s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.138s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.166s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.180s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.184s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.185s] -- Looking for OGRE...
+[1.186s] -- OGRE_PREFIX_WATCH changed.
+[1.190s] -- Checking for module 'OGRE'
+[1.204s] --   Found OGRE, version 1.9.0
+[1.240s] -- Found Ogre Ghadamon (1.9.0)
+[1.246s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.253s] -- Looking for OGRE_Paging...
+[1.259s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.259s] -- Looking for OGRE_Terrain...
+[1.263s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.263s] -- Looking for OGRE_Property...
+[1.272s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.272s] -- Looking for OGRE_RTShaderSystem...
+[1.278s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.278s] -- Looking for OGRE_Volume...
+[1.285s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.285s] -- Looking for OGRE_Overlay...
+[1.295s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.589s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.592s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.593s] -- Searching for dependencies of ignition-transport8
+[1.652s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.691s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.705s] -- Checking for module 'libzmq >= 4'
+[1.744s] --   Found libzmq , version 4.3.4
+[1.850s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.868s] -- Checking for module 'uuid'
+[1.909s] --   Found uuid, version 2.37.2
+[2.002s] -- Found UUID: TRUE  
+[2.010s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.010s] -- Searching for dependencies of ignition-msgs5
+[2.069s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.082s] -- Checking for module 'tinyxml2'
+[2.125s] --   Found tinyxml2, version 9.0.0
+[2.237s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.249s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.250s] -- Searching for dependencies of ignition-common3
+[2.250s] -- Looking for dlfcn.h - found
+[2.252s] -- Looking for libdl - found
+[2.257s] -- Found DL: TRUE  
+[2.288s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.288s] -- Searching for <ignition-common3> component [graphics]
+[2.305s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.305s] -- Searching for dependencies of ignition-common3-graphics
+[2.305s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.312s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.313s] -- Searching for dependencies of ignition-fuel_tools4
+[2.597s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.628s] -- Checking for module 'jsoncpp'
+[2.688s] --   Found jsoncpp, version 1.9.5
+[2.808s] -- Found JSONCPP: TRUE  
+[2.824s] -- Checking for module 'libzip'
+[2.881s] --   Found libzip, version 1.7.3
+[3.000s] -- Found ZIP: TRUE  
+[3.000s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.000s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.002s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.018s] -- Gazebo version: 11.10
+[3.018s] -- Checking for module 'tbb'
+[3.064s] --   Found tbb, version 2021.5.0
+[3.350s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.615s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.621s] -- Configured cppcheck include dirs: /home/jlmre/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/include
+[3.621s] -- Configured cppcheck exclude dirs and/or files: 
+[3.632s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.632s] -- Configured cpplint exclude dirs and/or files: 
+[3.632s] -- Added test 'lint_cmake' to check CMake code style
+[3.640s] -- Added test 'uncrustify' to check C / C++ code style
+[3.640s] -- Configured uncrustify additional arguments: 
+[3.640s] -- Added test 'xmllint' to check XML markup files
+[3.645s] -- Configuring done
+[4.171s] -- Generating done
+[4.217s] -- Build files have been written to: /home/jlmre/create3_ws/build/irobot_create_gazebo_plugins
+[4.264s] Invoked command in '/home/jlmre/create3_ws/build/irobot_create_gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jlmre/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins
+[4.265s] Invoking command in '/home/jlmre/create3_ws/build/irobot_create_gazebo_plugins': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jlmre/create3_ws/build/irobot_create_gazebo_plugins -- -j16 -l16
+[4.428s] [  5%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_helpers.dir/src/gazebo_ros_helpers.cpp.o[0m
+[19.702s] [ 10%] [32m[1mLinking CXX shared library libgazebo_ros_create_helpers.so[0m
+[20.310s] [ 10%] Built target gazebo_ros_create_helpers
+[20.361s] [ 15%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_bumper.dir/src/gazebo_ros_bumper.cpp.o[0m
+[20.379s] [ 20%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_docking_status.dir/src/gazebo_ros_docking_status.cpp.o[0m
+[20.384s] [ 25%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_cliff_sensor.dir/src/gazebo_ros_cliff_sensor.cpp.o[0m
+[20.394s] [ 30%] [32mBuilding CXX object CMakeFiles/docking_manager.dir/src/docking_manager.cpp.o[0m
+[20.401s] [ 35%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_optical_mouse.dir/src/gazebo_ros_optical_mouse.cpp.o[0m
+[20.401s] [ 40%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_ir_intensity_sensor.dir/src/gazebo_ros_ir_intensity_sensor.cpp.o[0m
+[20.401s] [ 45%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_imu.dir/src/gazebo_ros_imu.cpp.o[0m
+[20.421s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_wheel_drop.dir/src/gazebo_ros_wheel_drop.cpp.o[0m
+[33.819s] [ 55%] [32m[1mLinking CXX shared library libdocking_manager.so[0m
+[34.343s] [ 55%] Built target docking_manager
+[34.375s] [ 60%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_ir_opcode.dir/src/gazebo_ros_ir_opcode.cpp.o[0m
+[34.743s] [ 65%] [32m[1mLinking CXX shared library libgazebo_ros_create_imu.so[0m
+[35.117s] [ 70%] [32m[1mLinking CXX shared library libgazebo_ros_create_optical_mouse.so[0m
+[35.183s] [ 70%] Built target gazebo_ros_create_imu
+[35.234s] [ 75%] [32m[1mLinking CXX shared library libgazebo_ros_create_wheel_drop.so[0m
+[35.595s] [ 80%] [32m[1mLinking CXX shared library libgazebo_ros_create_ir_intensity_sensor.so[0m
+[35.644s] [ 80%] Built target gazebo_ros_create_optical_mouse
+[35.725s] [ 80%] Built target gazebo_ros_create_wheel_drop
+[35.993s] [ 80%] Built target gazebo_ros_create_ir_intensity_sensor
+[38.611s] [ 85%] [32m[1mLinking CXX shared library libgazebo_ros_create_cliff_sensor.so[0m
+[38.729s] [ 90%] [32m[1mLinking CXX shared library libgazebo_ros_create_docking_status.so[0m
+[39.012s] [ 95%] [32m[1mLinking CXX shared library libgazebo_ros_create_bumper.so[0m
+[39.152s] [ 95%] Built target gazebo_ros_create_cliff_sensor
+[39.563s] [ 95%] Built target gazebo_ros_create_docking_status
+[39.576s] [ 95%] Built target gazebo_ros_create_bumper
+[43.827s] [100%] [32m[1mLinking CXX shared library libgazebo_ros_create_ir_opcode.so[0m
+[44.184s] [100%] Built target gazebo_ros_create_ir_opcode
+[44.195s] Invoked command in '/home/jlmre/create3_ws/build/irobot_create_gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jlmre/create3_ws/build/irobot_create_gazebo_plugins -- -j16 -l16
+[44.196s] Invoking command in '/home/jlmre/create3_ws/build/irobot_create_gazebo_plugins': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jlmre/create3_ws/build/irobot_create_gazebo_plugins
+[44.202s] -- Install configuration: ""
+[44.202s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/library_path.sh
+[44.203s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/library_path.dsv
+[44.203s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/include
+[44.203s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins
+[44.203s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_ir_intensity_sensor.hpp
+[44.203s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_ir_opcode.hpp
+[44.203s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_bumper.hpp
+[44.203s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_docking_status.hpp
+[44.203s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_optical_mouse.hpp
+[44.203s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_imu.hpp
+[44.203s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_helpers.hpp
+[44.203s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_cliff_sensor.hpp
+[44.203s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_wheel_drop.hpp
+[44.203s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/docking_manager.hpp
+[44.204s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_bumper.so
+[44.208s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_bumper.so" to ""
+[44.208s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_cliff_sensor.so
+[44.211s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_cliff_sensor.so" to ""
+[44.211s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_docking_status.so
+[44.220s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_docking_status.so" to ""
+[44.220s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_helpers.so
+[44.221s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_helpers.so" to ""
+[44.221s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_imu.so
+[44.224s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_imu.so" to ""
+[44.224s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_ir_intensity_sensor.so
+[44.226s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_ir_intensity_sensor.so" to ""
+[44.226s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_optical_mouse.so
+[44.229s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_optical_mouse.so" to ""
+[44.229s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_ir_opcode.so
+[44.231s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_ir_opcode.so" to ""
+[44.231s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libdocking_manager.so
+[44.232s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libdocking_manager.so" to ""
+[44.232s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_wheel_drop.so
+[44.235s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_wheel_drop.so" to ""
+[44.235s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/irobot_create_gazebo_plugins
+[44.235s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/irobot_create_gazebo_plugins
+[44.235s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/ament_prefix_path.sh
+[44.235s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/ament_prefix_path.dsv
+[44.235s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/path.sh
+[44.235s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/path.dsv
+[44.236s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/local_setup.bash
+[44.236s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/local_setup.sh
+[44.236s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/local_setup.zsh
+[44.236s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/local_setup.dsv
+[44.236s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/package.dsv
+[44.236s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/ament_index/resource_index/packages/irobot_create_gazebo_plugins
+[44.236s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[44.236s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.236s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.236s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/cmake/irobot_create_gazebo_pluginsConfig.cmake
+[44.236s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/cmake/irobot_create_gazebo_pluginsConfig-version.cmake
+[44.236s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/package.xml
+[44.239s] Invoked command in '/home/jlmre/create3_ws/build/irobot_create_gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jlmre/create3_ws/build/irobot_create_gazebo_plugins

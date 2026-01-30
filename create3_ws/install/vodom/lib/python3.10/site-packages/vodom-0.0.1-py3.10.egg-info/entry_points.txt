@@ -1,0 +1,3 @@
+[console_scripts]
+vodom_node = vodom.vodom_node:main
+

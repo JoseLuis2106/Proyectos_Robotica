@@ -1,0 +1,24 @@
+[0.035s] Invoking command in '/home/jlmre/create3_ws/build/irobot_create_ignition_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlmre/create3_ws/install/vodom:/home/jlmre/create3_ws/install/pr_pkg:/home/jlmre/create3_ws/install/img_server:/home/jlmre/create3_ws/install/image_png_player:/home/jlmre/create3_ws/install/ez_nav:/home/jlmre/create3_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /home/jlmre/create3_ws/build/irobot_create_ignition_plugins -- -j16 -l16
+[0.801s] [ 16%] [34m[1mAutomatic MOC for target Create3Hmi[0m
+[0.801s] [ 16%] Built target Create3Hmi_autogen
+[0.801s] [100%] Built target Create3Hmi
+[0.813s] Invoked command in '/home/jlmre/create3_ws/build/irobot_create_ignition_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlmre/create3_ws/install/vodom:/home/jlmre/create3_ws/install/pr_pkg:/home/jlmre/create3_ws/install/img_server:/home/jlmre/create3_ws/install/image_png_player:/home/jlmre/create3_ws/install/ez_nav:/home/jlmre/create3_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /home/jlmre/create3_ws/build/irobot_create_ignition_plugins -- -j16 -l16
+[0.814s] Invoking command in '/home/jlmre/create3_ws/build/irobot_create_ignition_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlmre/create3_ws/install/vodom:/home/jlmre/create3_ws/install/pr_pkg:/home/jlmre/create3_ws/install/img_server:/home/jlmre/create3_ws/install/image_png_player:/home/jlmre/create3_ws/install/ez_nav:/home/jlmre/create3_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --install /home/jlmre/create3_ws/build/irobot_create_ignition_plugins
+[0.971s] -- Install configuration: ""
+[0.971s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_ignition_plugins/share/ament_index/resource_index/package_run_dependencies/irobot_create_ignition_plugins
+[0.971s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_ignition_plugins/share/ament_index/resource_index/parent_prefix_path/irobot_create_ignition_plugins
+[0.971s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/ament_prefix_path.sh
+[0.971s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/ament_prefix_path.dsv
+[0.971s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/path.sh
+[0.971s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/path.dsv
+[0.971s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.bash
+[0.971s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.sh
+[0.971s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.zsh
+[0.971s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.dsv
+[0.971s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.dsv
+[0.971s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_ignition_plugins/share/ament_index/resource_index/packages/irobot_create_ignition_plugins
+[0.971s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/cmake/irobot_create_ignition_pluginsConfig.cmake
+[0.971s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/cmake/irobot_create_ignition_pluginsConfig-version.cmake
+[0.971s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.xml
+[0.971s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/lib/libCreate3Hmi.so
+[0.996s] Invoked command in '/home/jlmre/create3_ws/build/irobot_create_ignition_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlmre/create3_ws/install/vodom:/home/jlmre/create3_ws/install/pr_pkg:/home/jlmre/create3_ws/install/img_server:/home/jlmre/create3_ws/install/image_png_player:/home/jlmre/create3_ws/install/ez_nav:/home/jlmre/create3_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --install /home/jlmre/create3_ws/build/irobot_create_ignition_plugins

@@ -1,0 +1,186 @@
+[0.010s] Invoking command in '/home/jlmre/create3_ws/build/irobot_create_nodes': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jlmre/create3_ws/src/create3_sim/irobot_create_common/irobot_create_nodes -DCMAKE_INSTALL_PREFIX=/home/jlmre/create3_ws/install/irobot_create_nodes
+[0.052s] -- The C compiler identification is GNU 11.4.0
+[0.095s] -- The CXX compiler identification is GNU 11.4.0
+[0.101s] -- Detecting C compiler ABI info
+[0.155s] -- Detecting C compiler ABI info - done
+[0.160s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.160s] -- Detecting C compile features
+[0.160s] -- Detecting C compile features - done
+[0.162s] -- Detecting CXX compiler ABI info
+[0.227s] -- Detecting CXX compiler ABI info - done
+[0.232s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.232s] -- Detecting CXX compile features
+[0.232s] -- Detecting CXX compile features - done
+[0.235s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.346s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.421s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.426s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.458s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.462s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.469s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.480s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.598s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.613s] -- Found irobot_create_msgs: 2.1.0 (/opt/ros/humble/share/irobot_create_msgs/cmake)
+[0.627s] -- Found irobot_create_toolbox: 2.1.0 (/home/jlmre/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake)
+[0.667s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.669s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.745s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.771s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.809s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.817s] -- Looking for pthread.h
+[0.879s] -- Looking for pthread.h - found
+[0.879s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.940s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.941s] -- Found Threads: TRUE  
+[0.971s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.980s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.009s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[1.013s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.027s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.028s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.028s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.061s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[1.098s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.160s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.160s] -- Configured cppcheck include dirs: /home/jlmre/create3_ws/src/create3_sim/irobot_create_common/irobot_create_nodes/include
+[1.160s] -- Configured cppcheck exclude dirs and/or files: 
+[1.162s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.162s] -- Configured cpplint exclude dirs and/or files: 
+[1.163s] -- Added test 'lint_cmake' to check CMake code style
+[1.165s] -- Added test 'uncrustify' to check C / C++ code style
+[1.165s] -- Configured uncrustify additional arguments: 
+[1.165s] -- Added test 'xmllint' to check XML markup files
+[1.166s] -- Configuring done
+[1.263s] -- Generating done
+[1.300s] -- Build files have been written to: /home/jlmre/create3_ws/build/irobot_create_nodes
+[1.319s] Invoked command in '/home/jlmre/create3_ws/build/irobot_create_nodes' returned '0': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jlmre/create3_ws/src/create3_sim/irobot_create_common/irobot_create_nodes -DCMAKE_INSTALL_PREFIX=/home/jlmre/create3_ws/install/irobot_create_nodes
+[1.321s] Invoking command in '/home/jlmre/create3_ws/build/irobot_create_nodes': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jlmre/create3_ws/build/irobot_create_nodes -- -j16 -l16
+[1.417s] [  2%] [32mBuilding CXX object CMakeFiles/hazard_publisher_lib.dir/src/hazards_vector_publisher.cpp.o[0m
+[1.417s] [  5%] [32mBuilding CXX object CMakeFiles/hazards_vector_publisher.dir/rclcpp_components/node_main_hazards_vector_publisher.cpp.o[0m
+[1.419s] [  8%] [32mBuilding CXX object CMakeFiles/ir_intensity_publisher_lib.dir/src/ir_intensity_vector_publisher.cpp.o[0m
+[1.422s] [ 10%] [32mBuilding CXX object CMakeFiles/ir_intensity_vector_publisher.dir/rclcpp_components/node_main_ir_intensity_vector_publisher.cpp.o[0m
+[1.427s] [ 13%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/reflex_behavior.cpp.o[0m
+[1.428s] [ 16%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/drive_goal_behaviors.cpp.o[0m
+[1.428s] [ 18%] [32mBuilding CXX object CMakeFiles/motion_control.dir/rclcpp_components/node_main_motion_control.cpp.o[0m
+[1.430s] [ 21%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control_node.cpp.o[0m
+[1.431s] [ 24%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/docking_behavior.cpp.o[0m
+[1.433s] [ 27%] [32mBuilding CXX object CMakeFiles/wheel_status_publisher.dir/rclcpp_components/node_main_wheel_status_publisher.cpp.o[0m
+[1.433s] [ 29%] [32mBuilding CXX object CMakeFiles/robot_state_lib.dir/src/robot_state.cpp.o[0m
+[1.436s] [ 32%] [32mBuilding CXX object CMakeFiles/robot_state.dir/rclcpp_components/node_main_robot_state.cpp.o[0m
+[1.444s] [ 35%] [32mBuilding CXX object CMakeFiles/wheel_status_publisher_lib.dir/src/wheels_publisher.cpp.o[0m
+[1.444s] [ 37%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/wall_follow_behavior.cpp.o[0m
+[1.452s] [ 40%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/wall_follow_states.cpp.o[0m
+[1.498s] [ 43%] [32mBuilding CXX object CMakeFiles/ui_mgr_lib.dir/src/ui_mgr.cpp.o[0m
+[8.815s] [ 45%] [32m[1mLinking CXX executable wheel_status_publisher[0m
+[9.104s] [ 48%] [32m[1mLinking CXX executable motion_control[0m
+[9.170s] [ 48%] Built target wheel_status_publisher
+[9.239s] [ 51%] [32mBuilding CXX object CMakeFiles/ui_mgr.dir/rclcpp_components/node_main_ui_mgr.cpp.o[0m
+[9.569s] [ 51%] Built target motion_control
+[9.639s] [ 54%] [32mBuilding CXX object CMakeFiles/mock_publisher_lib.dir/src/mock_publisher.cpp.o[0m
+[9.864s] [ 56%] [32m[1mLinking CXX executable hazards_vector_publisher[0m
+[10.086s] [ 59%] [32m[1mLinking CXX executable ir_intensity_vector_publisher[0m
+[10.159s] [ 62%] [32m[1mLinking CXX executable robot_state[0m
+[10.281s] [ 62%] Built target hazards_vector_publisher
+[10.357s] [ 64%] [32mBuilding CXX object CMakeFiles/mock_publisher.dir/rclcpp_components/node_main_mock_publisher.cpp.o[0m
+[10.485s] [ 64%] Built target ir_intensity_vector_publisher
+[10.543s] [ 67%] [32mBuilding CXX object CMakeFiles/kidnap_estimator_publisher_lib.dir/src/kidnap_estimator_publisher.cpp.o[0m
+[10.566s] [ 67%] Built target robot_state
+[10.633s] [ 70%] [32mBuilding CXX object CMakeFiles/kidnap_estimator_publisher.dir/rclcpp_components/node_main_kidnap_estimator_publisher.cpp.o[0m
+[16.626s] [ 72%] [32m[1mLinking CXX executable kidnap_estimator_publisher[0m
+[16.901s] [ 75%] [32m[1mLinking CXX executable mock_publisher[0m
+[16.952s] [ 78%] [32m[1mLinking CXX executable ui_mgr[0m
+[16.973s] [ 78%] Built target kidnap_estimator_publisher
+[17.157s] [ 78%] Built target mock_publisher
+[17.261s] [ 78%] Built target ui_mgr
+[18.678s] [ 81%] [32m[1mLinking CXX shared library libmock_publisher_lib.so[0m
+[19.363s] [ 81%] Built target mock_publisher_lib
+[20.200s] [ 83%] [32m[1mLinking CXX shared library libir_intensity_publisher_lib.so[0m
+[20.545s] [ 86%] [32m[1mLinking CXX shared library libwheel_status_publisher_lib.so[0m
+[21.098s] [ 86%] Built target ir_intensity_publisher_lib
+[21.187s] [ 89%] [32m[1mLinking CXX shared library libhazard_publisher_lib.so[0m
+[21.893s] [ 89%] Built target wheel_status_publisher_lib
+[22.200s] [ 89%] Built target hazard_publisher_lib
+[25.104s] [ 91%] [32m[1mLinking CXX shared library librobot_state_lib.so[0m
+[25.677s] [ 94%] [32m[1mLinking CXX shared library libkidnap_estimator_publisher_lib.so[0m
+[26.466s] [ 94%] Built target robot_state_lib
+[26.544s] [ 97%] [32m[1mLinking CXX shared library libui_mgr_lib.so[0m
+[26.610s] [ 97%] Built target kidnap_estimator_publisher_lib
+[27.752s] [ 97%] Built target ui_mgr_lib
+[37.596s] [100%] [32m[1mLinking CXX shared library libmotion_control_lib.so[0m
+[40.020s] [100%] Built target motion_control_lib
+[40.030s] Invoked command in '/home/jlmre/create3_ws/build/irobot_create_nodes' returned '0': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jlmre/create3_ws/build/irobot_create_nodes -- -j16 -l16
+[40.032s] Invoking command in '/home/jlmre/create3_ws/build/irobot_create_nodes': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jlmre/create3_ws/build/irobot_create_nodes
+[40.038s] -- Install configuration: ""
+[40.039s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/hazards_vector_publisher
+[40.039s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/hazards_vector_publisher" to ""
+[40.039s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/ir_intensity_vector_publisher
+[40.039s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/ir_intensity_vector_publisher" to ""
+[40.039s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/motion_control
+[40.040s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/motion_control" to ""
+[40.040s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/wheel_status_publisher
+[40.040s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/wheel_status_publisher" to ""
+[40.040s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/robot_state
+[40.040s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/robot_state" to ""
+[40.041s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/ui_mgr
+[40.041s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/ui_mgr" to ""
+[40.041s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/mock_publisher
+[40.041s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/mock_publisher" to ""
+[40.041s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/kidnap_estimator_publisher
+[40.042s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/kidnap_estimator_publisher" to ""
+[40.042s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/libhazard_publisher_lib.so
+[40.047s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_nodes/lib/libhazard_publisher_lib.so" to ""
+[40.047s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/libir_intensity_publisher_lib.so
+[40.052s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_nodes/lib/libir_intensity_publisher_lib.so" to ""
+[40.052s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/libmotion_control_lib.so
+[40.080s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_nodes/lib/libmotion_control_lib.so" to ""
+[40.080s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/libwheel_status_publisher_lib.so
+[40.086s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_nodes/lib/libwheel_status_publisher_lib.so" to ""
+[40.086s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/librobot_state_lib.so
+[40.093s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_nodes/lib/librobot_state_lib.so" to ""
+[40.093s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/libui_mgr_lib.so
+[40.103s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_nodes/lib/libui_mgr_lib.so" to ""
+[40.103s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/libmock_publisher_lib.so
+[40.104s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_nodes/lib/libmock_publisher_lib.so" to ""
+[40.104s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/libkidnap_estimator_publisher_lib.so
+[40.109s] -- Set runtime path of "/home/jlmre/create3_ws/install/irobot_create_nodes/lib/libkidnap_estimator_publisher_lib.so" to ""
+[40.109s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include
+[40.109s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control_node.hpp
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/ui_mgr.hpp
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/kidnap_estimator_publisher.hpp
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/ir_intensity_vector_publisher.hpp
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/hazards_vector_publisher.hpp
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/behaviors_scheduler.hpp
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/reflex_behavior.hpp
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/drive_goal_behaviors.hpp
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/docking_behavior.hpp
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/simple_goal_controller.hpp
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/wall_follow_behavior.hpp
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/wall_follow_states.hpp
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/wheels_publisher.hpp
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/mock_publisher.hpp
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/robot_state.hpp
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/library_path.sh
+[40.110s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/library_path.dsv
+[40.111s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/ament_index/resource_index/package_run_dependencies/irobot_create_nodes
+[40.111s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/ament_index/resource_index/parent_prefix_path/irobot_create_nodes
+[40.111s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/ament_prefix_path.sh
+[40.111s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/ament_prefix_path.dsv
+[40.111s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/path.sh
+[40.111s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/path.dsv
+[40.111s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.bash
+[40.111s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.sh
+[40.111s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.zsh
+[40.111s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.dsv
+[40.111s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/package.dsv
+[40.112s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/ament_index/resource_index/packages/irobot_create_nodes
+[40.112s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/ament_index/resource_index/rclcpp_components/irobot_create_nodes
+[40.112s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.112s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_libraries-extras.cmake
+[40.112s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.112s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/irobot_create_nodesConfig.cmake
+[40.112s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/irobot_create_nodesConfig-version.cmake
+[40.112s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/package.xml
+[40.115s] Invoked command in '/home/jlmre/create3_ws/build/irobot_create_nodes' returned '0': AMENT_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jlmre/create3_ws/build/irobot_create_nodes

@@ -1,0 +1,22 @@
+[1.349s] Invoking command in '/home/jlmre/create3_ws/src/image_png_player': PYTHONPATH=/home/jlmre/create3_ws/build/image_png_player/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jlmre/create3_ws/install/image_png_player/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_png_player build --build-base /home/jlmre/create3_ws/build/image_png_player/build install --record /home/jlmre/create3_ws/build/image_png_player/install.log --single-version-externally-managed install_data
+[1.543s] running egg_info
+[1.544s] writing ../../build/image_png_player/image_png_player.egg-info/PKG-INFO
+[1.544s] writing dependency_links to ../../build/image_png_player/image_png_player.egg-info/dependency_links.txt
+[1.544s] writing entry points to ../../build/image_png_player/image_png_player.egg-info/entry_points.txt
+[1.544s] writing requirements to ../../build/image_png_player/image_png_player.egg-info/requires.txt
+[1.544s] writing top-level names to ../../build/image_png_player/image_png_player.egg-info/top_level.txt
+[1.546s] reading manifest file '../../build/image_png_player/image_png_player.egg-info/SOURCES.txt'
+[1.547s] writing manifest file '../../build/image_png_player/image_png_player.egg-info/SOURCES.txt'
+[1.547s] running build
+[1.547s] running build_py
+[1.547s] running install
+[1.548s] running install_lib
+[1.549s] running install_data
+[1.549s] running install_egg_info
+[1.550s] removing '/home/jlmre/create3_ws/install/image_png_player/lib/python3.10/site-packages/image_png_player-0.0.1-py3.10.egg-info' (and everything under it)
+[1.551s] Copying ../../build/image_png_player/image_png_player.egg-info to /home/jlmre/create3_ws/install/image_png_player/lib/python3.10/site-packages/image_png_player-0.0.1-py3.10.egg-info
+[1.551s] running install_scripts
+[1.568s] Installing Prueba script to /home/jlmre/create3_ws/install/image_png_player/lib/image_png_player
+[1.568s] Installing image_player script to /home/jlmre/create3_ws/install/image_png_player/lib/image_png_player
+[1.569s] writing list of installed files to '/home/jlmre/create3_ws/build/image_png_player/install.log'
+[1.608s] Invoked command in '/home/jlmre/create3_ws/src/image_png_player' returned '0': PYTHONPATH=/home/jlmre/create3_ws/build/image_png_player/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jlmre/create3_ws/install/image_png_player/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_png_player build --build-base /home/jlmre/create3_ws/build/image_png_player/build install --record /home/jlmre/create3_ws/build/image_png_player/install.log --single-version-externally-managed install_data

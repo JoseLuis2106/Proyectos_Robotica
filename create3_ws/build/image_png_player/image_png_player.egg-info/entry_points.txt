@@ -1,0 +1,4 @@
+[console_scripts]
+Prueba = image_png_player.Prueba:main
+image_player = image_png_player.image_player:main
+

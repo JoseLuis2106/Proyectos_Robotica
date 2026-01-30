@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Titulo de la app</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <script>
+      // Cada 5 segundos recarga la página actual
+      setInterval(() => {
+        location.reload();
+      }, 1000); // 5000 ms = 5 segundos
+    </script>
+  </head>
+  <body>
+    <!-- ALERTA SUPERIOR DERECHA -->
+    <div class="alert-box">
+      🚨 <span class="count">{{ people }}</span> personas detectadas
+    </div>
+
+    <!-- CONTENIDO CENTRAL -->
+    <div class="container">
+      <h1>Nombre de la aplicacion</h1>
+
+      <!-- IMAGEN DETECCIÓN -->
+      <div class="image-box">
+        {% if last_image %}
+        <img
+          src="{{ url_for('static', filename=last_image) }}"
+          alt="Última Detección"
+        />
+        {% else %}
+        <img
+          src="https://via.placeholder.com/500x300?text=Última+Detección"
+          alt="Detección"
+        />
+        {% endif %}
+      </div>
+
+      <!-- BOTONES -->
+      <div class="buttons">
+        <a href="/start" class="btn start">▶ Iniciar</a>
+        <a href="/stop" class="btn stop">⏹ Detener</a>
+      </div>
+
+      <!-- ESTADO -->
+      <p class="status">
+        Estado del robot:
+        <strong>{{ "ACTIVO" if robot_running else "DETENIDO" }}</strong>
+      </p>
+    </div>
+  </body>
+</html>

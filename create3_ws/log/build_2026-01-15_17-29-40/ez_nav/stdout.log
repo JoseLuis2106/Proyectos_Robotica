@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/ez_nav/ez_nav.egg-info
+writing ../../build/ez_nav/ez_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/ez_nav/ez_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/ez_nav/ez_nav.egg-info/entry_points.txt
+writing requirements to ../../build/ez_nav/ez_nav.egg-info/requires.txt
+writing top-level names to ../../build/ez_nav/ez_nav.egg-info/top_level.txt
+writing manifest file '../../build/ez_nav/ez_nav.egg-info/SOURCES.txt'
+reading manifest file '../../build/ez_nav/ez_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/ez_nav/ez_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jlmre/create3_ws/build/ez_nav/build
+creating /home/jlmre/create3_ws/build/ez_nav/build/lib
+creating /home/jlmre/create3_ws/build/ez_nav/build/lib/ez_nav
+copying ez_nav/__init__.py -> /home/jlmre/create3_ws/build/ez_nav/build/lib/ez_nav
+copying ez_nav/wf_nav.py -> /home/jlmre/create3_ws/build/ez_nav/build/lib/ez_nav
+running install
+running install_lib
+creating /home/jlmre/create3_ws/install/ez_nav/lib/python3.10/site-packages/ez_nav
+copying /home/jlmre/create3_ws/build/ez_nav/build/lib/ez_nav/__init__.py -> /home/jlmre/create3_ws/install/ez_nav/lib/python3.10/site-packages/ez_nav
+copying /home/jlmre/create3_ws/build/ez_nav/build/lib/ez_nav/wf_nav.py -> /home/jlmre/create3_ws/install/ez_nav/lib/python3.10/site-packages/ez_nav
+byte-compiling /home/jlmre/create3_ws/install/ez_nav/lib/python3.10/site-packages/ez_nav/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jlmre/create3_ws/install/ez_nav/lib/python3.10/site-packages/ez_nav/wf_nav.py to wf_nav.cpython-310.pyc
+running install_data
+creating /home/jlmre/create3_ws/install/ez_nav/share/ament_index
+creating /home/jlmre/create3_ws/install/ez_nav/share/ament_index/resource_index
+creating /home/jlmre/create3_ws/install/ez_nav/share/ament_index/resource_index/packages
+copying resource/ez_nav -> /home/jlmre/create3_ws/install/ez_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/jlmre/create3_ws/install/ez_nav/share/ez_nav
+running install_egg_info
+Copying ../../build/ez_nav/ez_nav.egg-info to /home/jlmre/create3_ws/install/ez_nav/lib/python3.10/site-packages/ez_nav-0.0.0-py3.10.egg-info
+running install_scripts
+Installing wf_nav script to /home/jlmre/create3_ws/install/ez_nav/lib/ez_nav
+writing list of installed files to '/home/jlmre/create3_ws/build/ez_nav/install.log'

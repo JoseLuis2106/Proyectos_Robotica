@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bec39e120cf47c2c473d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "irobot_create_toolbox",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "irobot_create_toolbox::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irobot_create_toolbox-c2ca79fbfaf46b64edf5.json",
+					"name" : "irobot_create_toolbox",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irobot_create_toolbox_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irobot_create_toolbox_uninstall-a7381c652fbed5d8991e.json",
+					"name" : "irobot_create_toolbox_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-333f13ef36af546e8b4d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jlmre/create3_ws/build/irobot_create_toolbox",
+		"source" : "/home/jlmre/create3_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

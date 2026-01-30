@@ -1,0 +1,21 @@
+[1.292s] Invoking command in '/home/jlmre/create3_ws/src/vodom': PYTHONPATH=/home/jlmre/create3_ws/build/vodom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jlmre/create3_ws/install/vodom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vodom build --build-base /home/jlmre/create3_ws/build/vodom/build install --record /home/jlmre/create3_ws/build/vodom/install.log --single-version-externally-managed install_data
+[1.461s] running egg_info
+[1.461s] writing ../../build/vodom/vodom.egg-info/PKG-INFO
+[1.462s] writing dependency_links to ../../build/vodom/vodom.egg-info/dependency_links.txt
+[1.462s] writing entry points to ../../build/vodom/vodom.egg-info/entry_points.txt
+[1.462s] writing requirements to ../../build/vodom/vodom.egg-info/requires.txt
+[1.462s] writing top-level names to ../../build/vodom/vodom.egg-info/top_level.txt
+[1.463s] reading manifest file '../../build/vodom/vodom.egg-info/SOURCES.txt'
+[1.463s] writing manifest file '../../build/vodom/vodom.egg-info/SOURCES.txt'
+[1.464s] running build
+[1.464s] running build_py
+[1.464s] running install
+[1.464s] running install_lib
+[1.465s] running install_data
+[1.465s] running install_egg_info
+[1.466s] removing '/home/jlmre/create3_ws/install/vodom/lib/python3.10/site-packages/vodom-0.0.1-py3.10.egg-info' (and everything under it)
+[1.466s] Copying ../../build/vodom/vodom.egg-info to /home/jlmre/create3_ws/install/vodom/lib/python3.10/site-packages/vodom-0.0.1-py3.10.egg-info
+[1.467s] running install_scripts
+[1.480s] Installing vodom_node script to /home/jlmre/create3_ws/install/vodom/lib/vodom
+[1.480s] writing list of installed files to '/home/jlmre/create3_ws/build/vodom/install.log'
+[1.497s] Invoked command in '/home/jlmre/create3_ws/src/vodom' returned '0': PYTHONPATH=/home/jlmre/create3_ws/build/vodom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jlmre/create3_ws/install/vodom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vodom build --build-base /home/jlmre/create3_ws/build/vodom/build install --record /home/jlmre/create3_ws/build/vodom/install.log --single-version-externally-managed install_data

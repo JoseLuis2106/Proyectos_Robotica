@@ -1,0 +1,4 @@
+cv_bridge
+opencv-python
+pyyaml
+setuptools

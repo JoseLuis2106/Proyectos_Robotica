@@ -1,0 +1,5 @@
+  File "/home/jlmre/create3_ws/install/img_server/lib/python3.10/site-packages/img_server/img_server_node.py", line 80
+    print(f"Personas detectadas: {request.data["people"]}")
+                                                ^^^^^^
+SyntaxError: f-string: unmatched '['
+

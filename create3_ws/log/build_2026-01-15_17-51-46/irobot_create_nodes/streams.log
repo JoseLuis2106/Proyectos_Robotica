@@ -1,0 +1,76 @@
+[0.018s] Invoking command in '/home/jlmre/create3_ws/build/irobot_create_nodes': CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_ignition_sim:/home/jlmre/create3_ws/install/irobot_create_ignition_bringup:/home/jlmre/create3_ws/install/irobot_create_gazebo_sim:/home/jlmre/create3_ws/install/irobot_create_gazebo_bringup:/home/jlmre/create3_ws/install/irobot_create_common_bringup:/home/jlmre/create3_ws/install/irobot_create_nodes:/home/jlmre/create3_ws/install/irobot_create_ignition_toolbox:/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins:/home/jlmre/create3_ws/install/irobot_create_ignition_plugins:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/home/jlmre/create3_ws/install/vodom:/home/jlmre/create3_ws/install/pr_pkg:/home/jlmre/create3_ws/install/img_server:/home/jlmre/create3_ws/install/image_png_player:/home/jlmre/create3_ws/install/ez_nav:/home/jlmre/create3_ws/install/bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:/home/jlmre/create3_ws/install/irobot_create_nodes/lib:/home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jlmre/create3_ws/build/irobot_create_nodes -- -j16 -l16
+[0.116s] [  5%] Built target motion_control
+[0.118s] [ 10%] Built target hazard_publisher_lib
+[0.118s] [ 16%] Built target ir_intensity_vector_publisher
+[0.121s] [ 21%] Built target wheel_status_publisher
+[0.122s] [ 27%] Built target hazards_vector_publisher
+[0.126s] [ 32%] Built target robot_state_lib
+[0.128s] [ 37%] Built target wheel_status_publisher_lib
+[0.133s] [ 43%] Built target ir_intensity_publisher_lib
+[0.133s] [ 48%] Built target robot_state
+[0.133s] [ 67%] Built target motion_control_lib
+[0.133s] [ 72%] Built target ui_mgr_lib
+[0.137s] [ 78%] Built target mock_publisher_lib
+[0.142s] [ 83%] Built target kidnap_estimator_publisher
+[0.142s] [ 89%] Built target ui_mgr
+[0.144s] [ 94%] Built target mock_publisher
+[0.146s] [100%] Built target kidnap_estimator_publisher_lib
+[0.169s] Invoked command in '/home/jlmre/create3_ws/build/irobot_create_nodes' returned '0': CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_ignition_sim:/home/jlmre/create3_ws/install/irobot_create_ignition_bringup:/home/jlmre/create3_ws/install/irobot_create_gazebo_sim:/home/jlmre/create3_ws/install/irobot_create_gazebo_bringup:/home/jlmre/create3_ws/install/irobot_create_common_bringup:/home/jlmre/create3_ws/install/irobot_create_nodes:/home/jlmre/create3_ws/install/irobot_create_ignition_toolbox:/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins:/home/jlmre/create3_ws/install/irobot_create_ignition_plugins:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/home/jlmre/create3_ws/install/vodom:/home/jlmre/create3_ws/install/pr_pkg:/home/jlmre/create3_ws/install/img_server:/home/jlmre/create3_ws/install/image_png_player:/home/jlmre/create3_ws/install/ez_nav:/home/jlmre/create3_ws/install/bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:/home/jlmre/create3_ws/install/irobot_create_nodes/lib:/home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jlmre/create3_ws/build/irobot_create_nodes -- -j16 -l16
+[0.175s] Invoking command in '/home/jlmre/create3_ws/build/irobot_create_nodes': CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_ignition_sim:/home/jlmre/create3_ws/install/irobot_create_ignition_bringup:/home/jlmre/create3_ws/install/irobot_create_gazebo_sim:/home/jlmre/create3_ws/install/irobot_create_gazebo_bringup:/home/jlmre/create3_ws/install/irobot_create_common_bringup:/home/jlmre/create3_ws/install/irobot_create_nodes:/home/jlmre/create3_ws/install/irobot_create_ignition_toolbox:/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins:/home/jlmre/create3_ws/install/irobot_create_ignition_plugins:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/home/jlmre/create3_ws/install/vodom:/home/jlmre/create3_ws/install/pr_pkg:/home/jlmre/create3_ws/install/img_server:/home/jlmre/create3_ws/install/image_png_player:/home/jlmre/create3_ws/install/ez_nav:/home/jlmre/create3_ws/install/bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:/home/jlmre/create3_ws/install/irobot_create_nodes/lib:/home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jlmre/create3_ws/build/irobot_create_nodes
+[0.184s] -- Install configuration: ""
+[0.185s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/hazards_vector_publisher
+[0.185s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/ir_intensity_vector_publisher
+[0.186s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/motion_control
+[0.186s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/wheel_status_publisher
+[0.187s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/robot_state
+[0.188s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/ui_mgr
+[0.189s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/mock_publisher
+[0.189s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/kidnap_estimator_publisher
+[0.189s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/libhazard_publisher_lib.so
+[0.191s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/libir_intensity_publisher_lib.so
+[0.192s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/libmotion_control_lib.so
+[0.193s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/libwheel_status_publisher_lib.so
+[0.193s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/librobot_state_lib.so
+[0.193s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/libui_mgr_lib.so
+[0.194s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/libmock_publisher_lib.so
+[0.195s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/lib/libkidnap_estimator_publisher_lib.so
+[0.198s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include
+[0.198s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes
+[0.198s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control_node.hpp
+[0.198s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/ui_mgr.hpp
+[0.198s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/kidnap_estimator_publisher.hpp
+[0.198s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/ir_intensity_vector_publisher.hpp
+[0.198s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/hazards_vector_publisher.hpp
+[0.198s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control
+[0.199s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/behaviors_scheduler.hpp
+[0.199s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/reflex_behavior.hpp
+[0.199s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/drive_goal_behaviors.hpp
+[0.199s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/docking_behavior.hpp
+[0.199s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/simple_goal_controller.hpp
+[0.199s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/wall_follow_behavior.hpp
+[0.199s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/wall_follow_states.hpp
+[0.199s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/wheels_publisher.hpp
+[0.199s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/mock_publisher.hpp
+[0.199s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/robot_state.hpp
+[0.199s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/library_path.sh
+[0.199s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/library_path.dsv
+[0.199s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/ament_index/resource_index/package_run_dependencies/irobot_create_nodes
+[0.199s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/ament_index/resource_index/parent_prefix_path/irobot_create_nodes
+[0.199s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/ament_prefix_path.sh
+[0.199s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/ament_prefix_path.dsv
+[0.200s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/path.sh
+[0.200s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/path.dsv
+[0.200s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.bash
+[0.200s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.sh
+[0.200s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.zsh
+[0.200s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.dsv
+[0.200s] -- Installing: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/package.dsv
+[0.200s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/ament_index/resource_index/packages/irobot_create_nodes
+[0.200s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/ament_index/resource_index/rclcpp_components/irobot_create_nodes
+[0.200s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.200s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_libraries-extras.cmake
+[0.200s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.200s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/irobot_create_nodesConfig.cmake
+[0.200s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/irobot_create_nodesConfig-version.cmake
+[0.201s] -- Up-to-date: /home/jlmre/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/package.xml
+[0.202s] Invoked command in '/home/jlmre/create3_ws/build/irobot_create_nodes' returned '0': CMAKE_PREFIX_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox:/home/jlmre/create3_ws/install/irobot_create_ignition_sim:/home/jlmre/create3_ws/install/irobot_create_ignition_bringup:/home/jlmre/create3_ws/install/irobot_create_gazebo_sim:/home/jlmre/create3_ws/install/irobot_create_gazebo_bringup:/home/jlmre/create3_ws/install/irobot_create_common_bringup:/home/jlmre/create3_ws/install/irobot_create_nodes:/home/jlmre/create3_ws/install/irobot_create_ignition_toolbox:/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins:/home/jlmre/create3_ws/install/irobot_create_ignition_plugins:/home/jlmre/create3_ws/install/irobot_create_description:/home/jlmre/create3_ws/install/irobot_create_control:/home/jlmre/create3_ws/install/vodom:/home/jlmre/create3_ws/install/pr_pkg:/home/jlmre/create3_ws/install/img_server:/home/jlmre/create3_ws/install/image_png_player:/home/jlmre/create3_ws/install/ez_nav:/home/jlmre/create3_ws/install/bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/jlmre/create3_ws/install/irobot_create_toolbox/lib:/home/jlmre/create3_ws/install/irobot_create_nodes/lib:/home/jlmre/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/jlmre/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jlmre/create3_ws/build/irobot_create_nodes

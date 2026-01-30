@@ -1,0 +1,3 @@
+[console_scripts]
+get2point = pr_pkg.get2point:main
+
